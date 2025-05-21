@@ -48,7 +48,7 @@ The whole idea sparked for when I wanted to implement a nice flag image/ icon to
 
 #### Will I need any prerequisites if I want to self host this?
 
-Ideally you should have a mysql database with a database called whatever you'd like and a table called flags, in that you need columns calledL: Country Name, Country Code and Flag (Optional if you want to cache links, I did not use this column at all) and then you can tweak the code a bit, of course make yourself the queryDatabase function first as that is what I have used but I will not provide the source code for that for obvious security reasons. Then you need a .htaccess file in the same directory you want the users to visit i.e /v1/flags/.htaccess in that you can place my .htaccess that I have used with apache, you can find that in the prerequisites folder.
+Ideally you should have a mysql database with a database called whatever you'd like and a table called flags, in that you need columns calledL: Country Name, Country Code and Flag (Optional if you want to cache links, I did not use this column at all) and then you can tweak the code a bit, of course make yourself the queryDatabase function first as that is what I have used but I will not provide the source code for that for obvious security reasons. Then you need a .htaccess file in the same directory you want the users to visit i.e /v1/flags/.htaccess in that you can place my .htaccess that I have used with apache, you can find that in the root folder.
 
 
 ## Used By
