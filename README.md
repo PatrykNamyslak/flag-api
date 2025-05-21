@@ -17,7 +17,7 @@ The limitations for the [Open API](https://api.frontendfoundry.dev/v1/flags/) ar
 
 ## API Reference
 
-#### Fetch a Flag
+#### Get all items
 
 ```http
   GET /v1/flags/${Identifier}
